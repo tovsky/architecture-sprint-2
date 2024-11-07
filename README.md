@@ -1,10 +1,13 @@
 # pymongo-api
 
-## Что внутри
+## Визуальная схема приложения, доступна здесь
+- https://drive.google.com/file/d/1qygIFkPuBme42pHnPkYgdx7NBUeOldKv/view?usp=share_link 
+
+## Что внутри репозитория
 - каталог **mongo-one-instance**. Первоначальный микросервис с 1 инстансом БД
 - каталог **mongo-sharding**. Версия проекта с шардированием БД.
 - каталог **mongo-sharding-repl**. Версия проекта с шардированием БД и репликами.
-- каталог **mongo-sharding-repl**. Версия проекта с шардированием БД и репликами и кешированием.
+- каталог **sharding-repl-cache**. Версия проекта с шардированием БД и репликами и кешированием.
 - 
 
 
@@ -35,7 +38,7 @@ docker compose down --remove-orphans --volumes
 
 Откройте в браузере http://localhost:8080
 
-### Проверить кеширование
+### Проверить кеширование (прогрев кеша при первом запросе)
 
 http://localhost:8080/helloDoc/users
 
