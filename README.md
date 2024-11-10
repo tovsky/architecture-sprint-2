@@ -1,6 +1,6 @@
 # pymongo-api
 
-## Визуальная схема приложения, доступна здесь
+## Актальная визуальная схема приложения, доступна здесь
 - https://drive.google.com/file/d/1qygIFkPuBme42pHnPkYgdx7NBUeOldKv/view?usp=share_link 
 
 ## Что внутри репозитория
